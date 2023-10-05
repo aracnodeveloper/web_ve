@@ -7,7 +7,7 @@ import NoPage from './views/noPageUI';
 import NavBar from './views/menuUI';
 import Login from './views/loginUI';
 import Ofertas from './views/ofertasUI';
-
+//función de menús
 function App() {
   return (
     <>
