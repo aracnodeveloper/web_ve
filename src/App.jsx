@@ -17,7 +17,7 @@ function App() {
           <Route path="/menu" element={<NavBar />} />
           <Route path="/login" element={<Login />} />
           <Route path="/ofertas" element={<Ofertas />} />
-          <Route path="*" element={<NoPage />} />        
+           
       </Routes>
     </BrowserRouter>
 
@@ -27,4 +27,6 @@ function App() {
 }
 
 export default App
+
+//<Route path="*" element={<NoPage />} />       
 
